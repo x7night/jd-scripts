@@ -28,4 +28,4 @@ jobs:
           source_repo: "https://github.com/danwangshimoluo/JdScripts.git"
           source_branch: "main"
           destination_branch: "main"
-          github_token: ${{ secrets.PAT }}
+          github_token: ${{ env.PAT }}
